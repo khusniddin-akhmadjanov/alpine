@@ -53,7 +53,7 @@ body {
   height: 2650px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../images/Rectangle\ 2.png");
+  background-image: url("../images/bgc.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -62,7 +62,6 @@ body {
 header {
   height: 788px;
   z-index: 1;
-  background-image: url("../images/Rectangle\ 1.png");
   background-size: cover;
   background-position: top;
 }
@@ -544,7 +543,9 @@ figure {}
   justify-content: space-evenly;
 }
 
-.brands-item {}
+.brands-item {
+  padding-bottom: 100px;
+}
 
 .brands-img {
   display: flex;
@@ -567,21 +568,22 @@ figure {}
   color: #000000;
 }
 
+.footer-wrapper {
+  position: relative;
+  min-width: 1200px;
+  background-image: url("../images/footer.jpg");
+} 
+
 footer {
   position: relative;
-  max-width: 1382px;
-  height: 530px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -80px;
-  background-size: ;
-  background-image: url("../images/footer.png");
 }
 
 .red-ellipse {
   position: relative;
-  left: 643px;
-  top: 20px;
+  left: 630px;
+  top: -50px;
 }
 
 .footer-top {
