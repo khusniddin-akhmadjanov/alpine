@@ -50,12 +50,12 @@ body {
 }
 
 .wrapper {
-  height: 2650px;
+  height: 2900px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../images/bgc.png");
-  background-size: cover;
-  background-position: bottom;
+  background-image: url("../images/Rectangle\ 2.png");
+  background-size: 100%;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -63,6 +63,8 @@ header {
   height: 788px;
   z-index: 1;
   background-size: cover;
+  background-repeat: no-repeat ;
+  background-image: url("../images/Rectangle\ 1.png");
   background-position: top;
 }
 
@@ -575,6 +577,7 @@ figure {}
 } 
 
 footer {
+  max-width: 1200px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -582,8 +585,8 @@ footer {
 
 .red-ellipse {
   position: relative;
-  left: 630px;
-  top: -50px;
+  left: 50%;
+  top: -80px;
 }
 
 .footer-top {
