@@ -50,13 +50,13 @@ body {
 }
 
 .wrapper {
-  height: 2900px;
+  height: 2600px;
   margin-left: auto;
   margin-right: auto;
   background-image: url("../images/Rectangle\ 2.png");
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: repeat-y;
 }
 
 header {
@@ -570,15 +570,9 @@ figure {}
   color: #000000;
 }
 
-.footer-wrapper {
-  position: relative;
-  min-width: 1200px;
-  background-image: url("../images/footer.jpg");
-} 
-
 footer {
-  max-width: 1200px;
-  position: relative;
+  background-image: url("../images/footer.jpg");
+  min-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -598,7 +592,7 @@ footer {
 }
 
 .footer-menu {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
 }
 
@@ -607,7 +601,7 @@ footer {
 }
 
 .footer-menu-item:nth-child(1) {
-  margin-left: 149px;
+  margin-left: 119px;
 }
 
 .footer-menu-item-title {
