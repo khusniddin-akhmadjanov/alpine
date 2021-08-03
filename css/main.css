@@ -56,7 +56,7 @@ body {
   background-image: url("../images/Rectangle\ 2.png");
   background-size: contain;
   background-position: bottom;
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 header {
@@ -572,7 +572,14 @@ figure {}
 
 footer {
   background-image: url("../images/footer.jpg");
-  min-width: 1200px;
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-box {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -663,6 +670,7 @@ footer {
 }
 
 .thanks {
+  width: 450px;
   margin-top: 40px;
   margin-left: 495px;
   margin-bottom: 60px;
