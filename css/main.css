@@ -118,7 +118,7 @@ header {
   align-items: center;
 }
 
-.main-left-side {}
+
 
 .main-container {
   width: 994px;
@@ -145,7 +145,7 @@ header {
 }
 
 .main-container-subtitle {
-  font-family: Paytone One;
+  font-family: "Paytone One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -229,8 +229,6 @@ header {
   margin-left: 67px;
 }
 
-figure {}
-
 .add-box {
   display: flex;
 }
@@ -309,8 +307,6 @@ figure {}
   display: flex;
   align-items: center;
 }
-
-.main-bottom-left {}
 
 .notifications {
   display: flex;
@@ -579,7 +575,7 @@ footer {
 }
 
 .footer-box {
-  max-width: 1200px;
+  max-width: 1220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -636,7 +632,7 @@ footer {
 
 .copyraight {
   width: 300px;
-  margin-top: 80px;
+  margin-top: 80px;;
   margin-left: 100px;
   text-align: right;
 }
@@ -670,8 +666,10 @@ footer {
 }
 
 .thanks {
-  width: 450px;
+  position: relative;
+  top: -20px;
+  width: 500px;
+  margin-left: 400px;
   margin-top: 40px;
-  margin-left: 495px;
-  margin-bottom: 60px;
+  padding-bottom: 10px;
 }
